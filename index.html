@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedokteran</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+  </head>
+  <body>
+    <nav style="height: 100vh; padding: 1rem; width: 200px">
+      <a href="/">Clear Message</a>
+      <button id="tw" class="button tw" data-sharer="twitter" data-hashtags="KedokteranRuangGuru #Card">Share on Twitter</button>
+    </nav>
+    <div id="output"></div>
+    <div class="card">
+      <div class="outside" id="cover">
+        <div class="front">
+          <p>Fakultas Kedokteran</p>
+          <div class="avatar">
+            <img src="./assets/1.svg" />
+          </div>
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="inside" id="card">
+        <p contenteditable="true" id="msg">Double klik to write message</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
